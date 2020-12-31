@@ -1,34 +1,38 @@
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(209, 201, 201);
+  background-image: url("https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQ2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: 100%;
 }
 
 .navbar {
-    background-color: #542451;
-    font-size: 1.5rem;
+  background-color: #542451;
+  font-size: 1.5rem;
 }
 
 .jumbotron {
-    padding: 30px;
-    background: #a83ea2;
-    color: white;
-    margin: 0;
+  padding: 30px;
+
+  color: rgb(78, 61, 61);
+  margin: 0;
+  height: 330px;
 }
 
 .main-container {
-    padding: 30px;
+  padding: 30px;
 }
 
 p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .modal-header {
-    background-color: #0096dc;
-    color: white;
+  background-color: #0096dc;
+  color: white;
 }
 
 footer {
-    background: #3d418b;
-    color: white;
-    padding: 15px;
+  background: #3d418b;
+  color: white;
+  padding: 15px;
 }
