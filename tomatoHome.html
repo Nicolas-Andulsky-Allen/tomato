@@ -19,7 +19,7 @@
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/tomatoStyles.css" />
     <!-- endbuild -->
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link
@@ -30,9 +30,224 @@
     <title>Ketchup Fantasy</title>
   </head>
 
-  <footer></footer>
   <body>
-    <header class="jumbotron jumbotron-fluid"></header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/logo.png" height="30" width="30"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nucampNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="fa fa-home fa-lg"></i> Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html"
+                ><i class="fa fa-info fa-lg"></i> About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-list fa-lg"></i> Sites</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><i class="fa fa-address-card fa-lg"></i> Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 offset-1 col-sm-5 text-center">
+          <h5>Social</h5>
+          <a
+            class="btn btn-social-icon btn-instagram"
+            href="http://instagram.com/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-social-icon btn-facebook"
+            href="http://facebook.com/"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+            ><i class="fa fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <div>spacer</div>
+
+    <footer class="site-footer d-inline-flex">
+      <div class="container-fluid d-inline-flex align-items-start">
+        <div class="row row-content col-sm-4 d-inline-flex">
+          <div class="col-12">
+            <h2>We would like to meet you!</h2>
+            <hr />
+
+            <div class="col-12">
+              <form>
+                <div class="form-group row">
+                  <label for="firstName" class="col-12 col-form-label"
+                    >First Name</label
+                  >
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="First Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="lastName" class="col-12 col-form-label"
+                    >Last Name</label
+                  >
+                  <div class="col-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      name="lastName"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="areaCode" class="col-12 col-form-label"
+                    >Contact Tel.</label
+                  >
+                  <div class="col-5">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      id="areaCode"
+                      name="areaCode"
+                      placeholder="Area code"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      name="telNum"
+                      placeholder="Tel. number"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="email" class="col-12 col-form-label">Email</label>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col col-12 offset-md-2">
+                    May we contact you?
+                    <div class="form-check form-check-inline">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        id="contactYes"
+                        name="contactRadios"
+                        value="yes"
+                      />
+                      <label for="contactYes" class="form-check-label"
+                        >Yes</label
+                      >
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        type="radio"
+                        class="form-check-input"
+                        id="contactNo"
+                        name="contactRadios"
+                        value="no"
+                      />
+                      <label for="contactNo" class="form-check-label">No</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="feedback" class="col-12 col-form-label"
+                    >Your Feedback</label
+                  >
+                  <div class="col-12">
+                    <textarea
+                      class="form-control"
+                      id="feedback"
+                      name="feedback"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="offset-md-2 col-md-3">
+                    <button type="submit" class="btn btn-primary">
+                      Send Feedback
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          class="row row-content col-sm-4 d-inline-flex align-items-stretch"
+          style="padding-left: 10%"
+        >
+          <div class="col-12">
+            <h2>Links</h2>
+            <ul class="list-unstyled">
+              <li class="h2"><a href="tomatoAboutUs.html">About Us</a></li>
+              <li class="h2"><a href="tomatoProcess.html">Process</a></li>
+              <li class="h2"><a href="tomatoSafari.html">Safari</a></li>
+              <li class="h2">
+                <a href="tomatoTestimonials.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="row row-content col-sm-4 d-inline-flex align-items-stretch text-center"
+        >
+          <h2>Contact Us Today And Prepare For Your Next Adventure!</h2>
+          <div class="col-12 text-center">
+            <a role="button" class="btn btn-link" href="tel:+12065551234"
+              ><i class="fa fa-phone"></i> 1-206-555-1234</a
+            ><br />
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:CyprusAdventure@GastronomyTravels.co"
+              ><i class="fa fa-envelope-o"></i
+              >CyprusAdventure@GastronomyTravels.co</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- build:js js/main.js -->
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
