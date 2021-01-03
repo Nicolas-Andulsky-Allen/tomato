@@ -1,8 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Redressed", sans-serif;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: rgb(209, 201, 201);
-  background-image: url("https://images.unsplash.com/reserve/EnF7DhHROS8OMEp2pCkx_Dufer%20food%20overhead%20hig%20res.jpg?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQ2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url(https://images.unsplash.com/photo-1607430986088-a51ddbc7cc6e?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQwfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   background-size: 100%;
+  background-position: center;
 }
 
 .navbar {
@@ -25,6 +35,8 @@ body {
 
 p {
   font-size: 1.5rem;
+  color: ghostwhite;
+  text-shadow: 2px 1px black;
 }
 
 .modal-header {
@@ -33,10 +45,48 @@ p {
 }
 
 footer {
-  background: #3d418b;
+  background-image: url(https://images.unsplash.com/photo-1502825305473-fedeffa5b12c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+  background-size: 100%;
   color: white;
   padding: 5px;
   margin: 5px;
   margin-left: 5px;
   flex-direction: column;
+}
+
+input {
+  background-color: gray;
+  color: gray;
+  outline-style: groove;
+  outline-color: gray;
+  /*box-shadow: 5px 10px aliceblue;*/
+  text-shadow: 2px 2px aliceblue;
+}
+
+label {
+  color: black;
+  text-shadow: 2px 2px white;
+}
+
+h2 {
+  color: chocolate;
+  text-shadow: 1px 1px black;
+}
+
+li {
+  color: chocolate;
+  text-shadow: 2px 2px black;
+}
+
+i {
+  text-shadow: 2px 2px black;
+}
+
+.formArea {
+  background: linear-gradient(
+    to bottom right rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.05)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(0.8rem);
 }
