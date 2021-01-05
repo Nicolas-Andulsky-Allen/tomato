@@ -23,6 +23,17 @@ https://images.unsplash.com/photo-1542706133547-2b957ec7ee5e?ixid=MXwxMjA3fDB8MH
 
 https://images.unsplash.com/photo-1594266063697-304befca9629?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80
 
+ship
+https://images.unsplash.com/photo-1508425671066-06a0ee0bc915?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80
+
+https://images.unsplash.com/photo-1534264556392-40fde544a5fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=401&q=80
+
+link to map in cyprian
+https://www.openstreetmap.org/#map=9/35.0783/33.1419
+
+open source map
+http://www.mapsopensource.com/images/cyprus-political-map.gif
+
 
 
 
@@ -39,3 +50,4 @@ About Us
 Our Ship
 Itinerary
 Testimonials
+Contact
