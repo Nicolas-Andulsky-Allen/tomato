@@ -61,8 +61,25 @@ body {
 }
 
 #tomatoItineraryBody {
+  background-image: url(https://images.unsplash.com/photo-1571734410667-0bde8dfbebf0?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDE2fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
   background-color: black;
-  background-size: 70%;
+  background-size: 100%;
+  background-position: top right;
+  margin: 0;
+  padding: 0;
+}
+
+#tomatoItineraryFooter {
+  background-image: url(https://images.unsplash.com/photo-1560860446-c821e910a0a7?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDExN3x8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  margin: 0;
+  padding: 0;
+  background-position: bottom;
+}
+
+#tomatoTestimonialsBody {
+  /* background-image: url(https://images.unsplash.com/photo-1591485061698-4a05b56cd26b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80); */
+  background-image: url(https://images.unsplash.com/photo-1485921325833-c519f76c4927?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80);
+  background-size: 100%;
   background-position: top right;
   margin: 0;
   padding: 0;
