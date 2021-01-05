@@ -7,23 +7,75 @@
   font-family: "Redressed", sans-serif;
 }
 
+#tomatoHomeBody {
+  background-image: url(https://images.unsplash.com/photo-1607430986088-a51ddbc7cc6e?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQwfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+#tomatoAboutUsBody {
+  background-image: url(https://images.unsplash.com/photo-1520066391310-428f06ebd602?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDI0fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: 100%;
+  background-position: top;
+}
+
+#tomatoShipBody {
+  background-image: url(https://images.unsplash.com/photo-1508425671066-06a0ee0bc915?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=968&q=80);
+  background-size: 77%;
+  background-position: top;
+}
+
 body {
   font-family: "Inter", sans-serif;
-  background-color: rgb(209, 201, 201);
-  background-image: url(https://images.unsplash.com/photo-1607430986088-a51ddbc7cc6e?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQwfHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+
   background-size: 100%;
   background-position: center;
 }
 
+#tomatoAboutUsP {
+  color: black;
+  font-size: 2rem;
+  text-shadow: 2px 1px white;
+}
+
+#tomatoAboutUsFooter {
+  background-image: url(https://images.unsplash.com/photo-1546628410-531e79033e01?ixid=MXwxMjA3fDB8MHxwcm9maWxlLWxpa2VkfDQ3fHx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: 100%;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+#tomatoHomeFooter {
+  background-image: url(https://images.unsplash.com/photo-1502825305473-fedeffa5b12c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+  background-size: 100%;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+#tomatoShipFooter {
+  background-image: url(https://images.unsplash.com/photo-1534264556392-40fde544a5fa?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=401&q=80);
+  background-size: 50%;
+  background-position: bottom center;
+  margin: 0;
+  padding: 0;
+}
+
+#tomatoItineraryBody {
+  background-color: black;
+  background-size: 70%;
+  background-position: top right;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
-  background-color: #542451;
+  background-color: chocolate;
   font-size: 1.5rem;
 }
 
 .jumbotron {
   padding: 30px;
 
-  color: rgb(78, 61, 61);
   margin: 0;
   height: 330px;
 }
@@ -45,7 +97,6 @@ p {
 }
 
 footer {
-  background-image: url(https://images.unsplash.com/photo-1502825305473-fedeffa5b12c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
   background-size: 100%;
   color: white;
   padding: 5px;
@@ -89,4 +140,19 @@ i {
   );
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(0.8rem);
+}
+
+table,
+td {
+  border: 2px solid #333;
+  text-shadow: 1px 3px white;
+  background-color: antiquewhite;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: antiquewhite;
+  text-shadow: 2px 2px black;
+  text-align: center;
 }
