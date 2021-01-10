@@ -173,3 +173,7 @@ tfoot {
   text-shadow: 2px 2px black;
   text-align: center;
 }
+.d-sm-block {
+  color: chocolate;
+  text-shadow: 0.5px 1px black;
+}

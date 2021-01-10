@@ -30,7 +30,7 @@
   </head>
 
   <body id="tomatoHomeBody">
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-xs navbar-dark sticky-top">
       <div class="container">
         <a class="navbar-brand" href="tomatoHome.html"
           ><img src="img/cruiseLogo.png" height="90" width="75"
@@ -98,11 +98,18 @@
         </div>
       </div>
     </nav>
-    <div class="d-inline-flex container-fluid align-items-center">
-      <div class="row row-content d-flex col-4">
-        <img src="img/cruiseLogo.png" height="5%" />
+    <div
+      class="d-flex container-fluid justify-content-between align-items-center"
+    >
+      <div class="col-sm-2 col-xs-4">
+        <img
+          src="img/cruiseLogo.png"
+          alt="Cyprus Culinary Cruises Logo and note
+        that the background image is a delicious mediterranean dish including eggs, and the lower background for every page of the site is a beach scene"
+          height="5%"
+        />
       </div>
-      <div class="row row-content d-flex col-8">
+      <div class="row row-content d-flex col-xs-12 col-sm-8 align-self-start">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam minima
           praesentium, atque neque earum esse et placeat ab rem inventore rerum
@@ -125,14 +132,16 @@
       </div>
     </div>
 
-    <footer id="tomatoHomeFooter" class="site-footer d-inline-flex">
-      <div class="container-fluid d-inline-flex align-items-start">
-        <div class="formArea row row-content col-sm-4 d-inline-flex">
+    <footer id="tomatoHomeFooter" class="site-footer">
+      <div
+        class="d-inline-flex container-fluid justify-content-between align-items-start"
+      >
+        <div class="formArea row row-content col-sm-4 align-items-center">
           <div class="col-12">
             <h2>We would like to meet you!</h2>
             <hr />
 
-            <div class="col-12">
+            <div class="col-sm-12 col-xs-4">
               <form>
                 <div class="form-group row">
                   <label for="firstName" class="col-12 col-form-label"
